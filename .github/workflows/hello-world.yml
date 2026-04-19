@@ -1,0 +1,10 @@
+name: Hello World Workflow
+on: [push]
+
+
+jobs:
+  build:
+    runs-on: ubunbtu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello. World!"
